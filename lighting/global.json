@@ -1,0 +1,103 @@
+{
+  "format_version": [1, 0, 0], 
+  "directional_lights": {
+  //定向光照
+    "sun": {
+    //亮度
+      "illuminance": {
+        "0.0": 0.0,
+        "0.25": 100.0,
+        "0.35": 500.0,
+        "0.5": 1500.0,
+        "0.65": 500.0,
+        "0.75": 100.0,
+        "1.0": 0.0
+      },
+      //颜色
+      "color": {
+      "0.25": [255.0, 123.0, 0.0, 255.0],
+      "0.35": [255.0, 194.0, 39.0, 255.0],
+      "0.45": [251.0, 242.0, 228.0, 255.0],
+      "0.50": [251.0, 242.0, 228.0, 255.0],
+      "0.55": [251.0, 242.0, 228.0, 255.0],
+      "0.65": [255.0, 194.0, 39.0, 255.0],
+      "0.75": [255.0, 123.0, 0.0, 255.0]
+      }
+    },
+    "moon": { 
+    //亮度
+        "illuminance": 0.27,
+        //颜色
+        "color": "#ffffffff"
+    }, 
+    //日月角度
+    "orbital_offset_degrees": {
+      "0.75": -28.0, // 日出
+      "1.0": 0.0, // 中午
+      "0.25": 28.0, // 日落
+      "0.0": 0.0 // 午夜
+      }   
+  }, 
+  "point_lights": { 
+  //点光源
+     "colors": {        
+        "minecraft:torch": "#CE8133",
+        "minecraft:colored_torch_blue": "#0000FF",
+        "minecraft:colored_torch_purple": "#FF00FF",
+        "minecraft:colored_torch_red": "#FF0000",
+        "minecraft:colored_torch_green": "#00FF00",
+        "minecraft:redstone_torch": "#FF0000",
+        "minecraft:end_rod": "#FFFFFF",
+        "minecraft:lantern": "#CE8133",
+        "minecraft:soul_lantern": "#00FFFF",
+        "minecraft:pearlescent_froglight": "#FFFFFF",
+        "minecraft:verdant_froglight": "#6ef4a6",
+        "minecraft:ochre_froglight": "#CE8133",
+        "minecraft:beacon": "#FFFFFF",
+        "minecraft:lit_furnace": "#df511d",     
+        "minecraft:campfire": "#df511d",
+        "minecraft:soul_campfire": "#00FFFF",
+        "minecraft:glow_frame": "#EFE39D",
+        "minecraft:flowing_lava": "#df511d",
+        "minecraft:lava": "#df511d",
+        "minecraft:fire": "#df511d",
+        "minecraft:soul_fire": "#00FFFF",    
+        "minecraft:candle": "#CE8133",
+        "minecraft:white_candle": "#CE8133",
+        "minecraft:orange_candle": "#CE8133",
+        "minecraft:magenta_candle": "#CE8133",
+        "minecraft:light_blue_candle": "#CE8133",
+        "minecraft:yellow_candle": "#CE8133",
+        "minecraft:lime_candle": "#CE8133",
+        "minecraft:pink_candle": "#CE8133",
+        "minecraft:gray_candle": "#CE8133",
+        "minecraft:light_gray_candle": "#CE8133",
+        "minecraft:cyan_candle": "#CE8133",
+        "minecraft:purple_candle": "#CE8133",
+        "minecraft:blue_candle": "#CE8133",
+        "minecraft:brown_candle": "#CE8133",
+        "minecraft:green_candle": "#CE8133",
+        "minecraft:green_candle": "#CE8133",
+        "minecraft:black_candle": "#CE8133",       
+        "minecraft:glow_lichen": "#48d897",
+        "minecraft:cave_vines_body_with_berries": "#e69f02",
+        "minecraft:cave_vines_head_with_berries": "#e69f02",
+        "minecraft:sea_pickle": "#6adfb2",
+        "minecraft:portal": "#A503FB",    
+        "minecraft:end_portal": "#ffffff",  
+        "minecraft:end_gateway": "#ffffff",
+        "minecraft:conduit": "#FFFFFF",
+        "minecraft:lava_cauldron": "#df511d",   
+        "minecraft:light_block": "#ffffff"
+     }
+  },
+  "pbr": { 
+   //全局金属性/自发光粗糙度
+      "blocks": { 
+        "global_metalness_emissive_roughness": [0.0, 0.0, 1.0]  
+      }, 
+      "actors": { 
+        "global_metalness_emissive_roughness": "#0000ff"
+      } 
+  } 
+}
