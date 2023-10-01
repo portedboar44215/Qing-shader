@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "V1.1.1b1重大更新：自带大部分pbr材质，无需搭配光追材质包！本光影包由portedboar44215制作",
+    "name": "轻·光影V1.1.0b3",
+    "uuid": "a11b58f3-af08-4801-838f-682ef391f9d6",
+    "version": [1, 1, 1],
+    "min_engine_version": [1, 20, 40]
+  },
+  "modules": [
+    {
+      "description": "Qing·Shader",
+      "type": "resources",
+      "uuid": "131b2eba-90ab-4fd9-be83-f07934aa76ad",
+      "version": [1, 1, 1]
+    }
+  ],
+  "capabilities" : [ "pbr" ]
+}
